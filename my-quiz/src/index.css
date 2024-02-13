@@ -2,4 +2,25 @@
   padding: 0;
   margin: 0;
   font-family: "Montserrat", Arial, sans-serif;
+  color: white;
+}
+
+body, html{
+  background-color: #1C1C1C;
+  min-height: 100vh;
+  height: 100%;
+}
+
+img{
+  max-width: 100%;
+}
+
+button{
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.8rem 1.5rem;
+  background-color: rgb(90, 76, 240);
+  border: none;
+  border-radius: 2rem;
 }

@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import './App.css'
+import HeaderHome from './components/HeaderHome'
 
 function App() {
 
   return (
-    <>
-      <h1>Quiz</h1>
-    </>
+    <div className='App'>
+      <h1>Quiz da Noemi</h1>
+      <HeaderHome></HeaderHome>
+    </div>
   )
 }
 

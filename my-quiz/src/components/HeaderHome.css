@@ -1,0 +1,17 @@
+.HeaderHome{
+    text-align: center;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.HeaderHome img{
+   
+    
+}
+
+.HeaderHome button{
+    max-width: 10rem;
+    margin-top: 1.5rem;
+}
