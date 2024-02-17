@@ -1,4 +1,18 @@
-import { createContext } from "react";
+import { createContext, useReducer } from "react";
+import questions from '../data/questions.js'
+
+const STAGES = ['Start', 'Playing', 'End']
+
+const InicialState = {
+    gameStage: STATES[0],
+    questions
+}
+
+const quizReducer = (state, action) => {
+    switch(action.type){
+        
+    }
+}
 
 export const QuizContext = createContext();
 
